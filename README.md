@@ -5,6 +5,10 @@ A hardware port of the 2010 interactive doodle. Running natively on an ESP32 and
 > [!IMPORTANT]
 > This project is not affiliated with Alphabet Inc. or Google LLC in any shape or form.
 
+> [!NOTE]
+> Check out the main repo
+> [https://github.com/weeniemount/googleballs-app](https://github.com/weeniemount/googleballs-app)
+
 ---
 
 ## Hardware
@@ -33,11 +37,6 @@ Both sensors share the same I2C pins:
 * `Adafruit GFX Library`
 * `Adafruit MPU6050`
 * `Adafruit Unified Sensor`
-
----
-
-## Check out the main repository:
-[https://github.com/weeniemount/googleballs-app](https://github.com/weeniemount/googleballs-app)
 
 ---
 
