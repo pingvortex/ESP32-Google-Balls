@@ -82,7 +82,9 @@ void loop() {
     sensors_event_t a, g, t;
     imu.getEvent(&a, &g, &t);
 
-    float mx = map(a.acceleration.x, -7, 7, 0, SCREEN_W);
+
+    // please dont
+    float mx = map(a.acceleration.z, -7, 7, 0, SCREEN_W);
     float my = map(a.acceleration.y, -7, 7, 0, SCREEN_H);
 
     oled.clearDisplay();
